@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Fira Code','JetBrains Mono', Consolas, 'Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "vscode-icons",
@@ -28,6 +28,11 @@
     "editor.acceptSuggestionOnEnter": "on",
     "explorer.confirmDelete": false,
     "editor.wordWrap": "on",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.formatOnSave": true,
     "beautify.language": {
         "js": {
             "type": [
@@ -56,5 +61,8 @@
     },
     "[html-eex]": {
         "editor.defaultFormatter": "HookyQR.beautify"
-    }
+    },
+    "files.exclude": {
+        "**/__pycache__": true
+    },
 }
