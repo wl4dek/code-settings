@@ -28,6 +28,14 @@
     "editor.acceptSuggestionOnEnter": "on",
     "explorer.confirmDelete": false,
     "editor.wordWrap": "on",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestEnabled": true,
     "editor.rulers": [
         80,
         120
